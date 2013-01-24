@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7370CF16B11D8D00E534BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7370CE16B11D8D00E534BE /* Foundation.framework */; };
+		0C7370D216B11D8D00E534BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7370D116B11D8D00E534BE /* main.m */; };
+		0C7370D616B11D8D00E534BE /* bluetoothpushclient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7370D516B11D8D00E534BE /* bluetoothpushclient.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C7370C816B11D8D00E534BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0C7370D616B11D8D00E534BE /* bluetoothpushclient.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C7370CA16B11D8D00E534BE /* bluetoothpushclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bluetoothpushclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7370CE16B11D8D00E534BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C7370D116B11D8D00E534BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7370D416B11D8D00E534BE /* bluetoothpushclient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluetoothpushclient-Prefix.pch"; sourceTree = "<group>"; };
+		0C7370D516B11D8D00E534BE /* bluetoothpushclient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bluetoothpushclient.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C7370C716B11D8D00E534BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7370CF16B11D8D00E534BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7370BF16B11D8D00E534BE = {
+			isa = PBXGroup;
+			children = (
+				0C7370D016B11D8D00E534BE /* bluetoothpushclient */,
+				0C7370CD16B11D8D00E534BE /* Frameworks */,
+				0C7370CB16B11D8D00E534BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C7370CB16B11D8D00E534BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7370CA16B11D8D00E534BE /* bluetoothpushclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C7370CD16B11D8D00E534BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7370CE16B11D8D00E534BE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C7370D016B11D8D00E534BE /* bluetoothpushclient */ = {
+			isa = PBXGroup;
+			children = (
+				0C7370D116B11D8D00E534BE /* main.m */,
+				0C7370D516B11D8D00E534BE /* bluetoothpushclient.1 */,
+				0C7370D316B11D8D00E534BE /* Supporting Files */,
+			);
+			path = bluetoothpushclient;
+			sourceTree = "<group>";
+		};
+		0C7370D316B11D8D00E534BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7370D416B11D8D00E534BE /* bluetoothpushclient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C7370C916B11D8D00E534BE /* bluetoothpushclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7370D916B11D8D00E534BE /* Build configuration list for PBXNativeTarget "bluetoothpushclient" */;
+			buildPhases = (
+				0C7370C616B11D8D00E534BE /* Sources */,
+				0C7370C716B11D8D00E534BE /* Frameworks */,
+				0C7370C816B11D8D00E534BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluetoothpushclient;
+			productName = bluetoothpushclient;
+			productReference = 0C7370CA16B11D8D00E534BE /* bluetoothpushclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7370C116B11D8D00E534BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = OrganLounge;
+			};
+			buildConfigurationList = 0C7370C416B11D8D00E534BE /* Build configuration list for PBXProject "bluetoothpushclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C7370BF16B11D8D00E534BE;
+			productRefGroup = 0C7370CB16B11D8D00E534BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C7370C916B11D8D00E534BE /* bluetoothpushclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C7370C616B11D8D00E534BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7370D216B11D8D00E534BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C7370D716B11D8D00E534BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C7370D816B11D8D00E534BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C7370DA16B11D8D00E534BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetoothpushclient/bluetoothpushclient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7370DB16B11D8D00E534BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetoothpushclient/bluetoothpushclient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C7370C416B11D8D00E534BE /* Build configuration list for PBXProject "bluetoothpushclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7370D716B11D8D00E534BE /* Debug */,
+				0C7370D816B11D8D00E534BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7370D916B11D8D00E534BE /* Build configuration list for PBXNativeTarget "bluetoothpushclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7370DA16B11D8D00E534BE /* Debug */,
+				0C7370DB16B11D8D00E534BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7370C116B11D8D00E534BE /* Project object */;
+}
