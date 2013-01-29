@@ -10,6 +10,7 @@
 		0C7370CF16B11D8D00E534BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7370CE16B11D8D00E534BE /* Foundation.framework */; };
 		0C7370D216B11D8D00E534BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7370D116B11D8D00E534BE /* main.m */; };
 		0C7370D616B11D8D00E534BE /* bluetoothpushclient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7370D516B11D8D00E534BE /* bluetoothpushclient.1 */; };
+		0C7370DD16B11D9F00E534BE /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7370DC16B11D9F00E534BE /* IOBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		0C7370D116B11D8D00E534BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C7370D416B11D8D00E534BE /* bluetoothpushclient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluetoothpushclient-Prefix.pch"; sourceTree = "<group>"; };
 		0C7370D516B11D8D00E534BE /* bluetoothpushclient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bluetoothpushclient.1; sourceTree = "<group>"; };
+		0C7370DC16B11D9F00E534BE /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7370DD16B11D9F00E534BE /* IOBluetooth.framework in Frameworks */,
 				0C7370CF16B11D8D00E534BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		0C7370BF16B11D8D00E534BE = {
 			isa = PBXGroup;
 			children = (
+				0C7370DC16B11D9F00E534BE /* IOBluetooth.framework */,
 				0C7370D016B11D8D00E534BE /* bluetoothpushclient */,
 				0C7370CD16B11D8D00E534BE /* Frameworks */,
 				0C7370CB16B11D8D00E534BE /* Products */,
